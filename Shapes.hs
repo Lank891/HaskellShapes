@@ -61,13 +61,13 @@ move (Tri (Point x1 y1) (Point x2 y2) (Point x3 y3)) a b = Tri (Point (x1+a) (y1
 
 
 baseCircle :: Float -> Shape
-baseCircle r = Circle (Point 0 0) r
+baseCircle = Circle (Point 0 0)
 
 baseRect :: Point -> Shape
-baseRect p = Rect (Point 0 0) p
+baseRect = Rect (Point 0 0)
 
 baseTri :: Point -> Point -> Shape
-baseTri p1 p2 = Tri (Point 0 0) p1 p2
+baseTri = Tri (Point 0 0)
 -- baseX: To create X shape with first point 0, 0
 
 instance Show Point where
