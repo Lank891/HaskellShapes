@@ -31,7 +31,7 @@ Simple input and output (module imported as Sh):
 
 \*Main> `let p = Sh.Point (-1) (-2)`
 
-\*Main> `let c = Sh.baseTri p (Sh.Point 3 0)` -- only 2 points - the first point is actually (0, 0) becosue od baseTri
+\*Main> `let c = Sh.baseTri p (Sh.Point 3 0)` -- only 2 points - the first point is actually (0, 0) becosue of baseTri
 
 \*Main> `a`
 
