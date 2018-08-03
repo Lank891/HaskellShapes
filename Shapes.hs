@@ -16,7 +16,7 @@ class Trans a where
 
 data Point = Point { x::Float
                    , y::Float
-                   } deriving (Eq, Read)
+                   } deriving (Eq)
 -- Point: coords of point
 -- also instance of Show and Trans (later)
 
@@ -29,7 +29,7 @@ data Shape = Circle { middlePoint::Point
              | Tri  { point1::Point
                     , point2::Point
                     , point3::Point
-                    } deriving (Eq, Read)
+                    } deriving (Eq)
 -- Circle: Point (middle), radius r; Rect: Point (left bottom), Point (right upper); Tri: 3 points of triangle
 -- also instance of Show and Trans (later)
 
