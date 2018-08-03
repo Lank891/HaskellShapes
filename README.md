@@ -9,7 +9,7 @@ Module has:
 
 (\*) Point with 1 constructor: Point (needs 2 floats) - represents point on x-y plane
 
-(\*) Shapes and Points derives: Eq, Read, custom Show, custom class Trans with smap function
+(\*) Shapes and Points derives: Eq, custom Show, custom class Trans with smap function
 
 (\*) Function `surface` - returns surface of a shape
 
