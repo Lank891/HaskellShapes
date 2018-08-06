@@ -51,7 +51,7 @@ circum (Tri (Point x1 y1) (Point x2 y2) (Point x3 y3) ) =
         b = sqrt $ ( ( abs $ x3-x1 )^2 ) + ( ( abs $ y3-y1)^2 )
         c = sqrt $ ( ( abs $ x3-x2 )^2 ) + ( ( abs $ y3-y2)^2 )
     in a + b + c
--- circuit: Returns circumfence of given shape
+-- circum: Returns circumfence of given shape
 
 move :: Shape -> Float -> Float -> Shape
 move (Circle (Point x y) r) a b = Circle (Point (x+a) (y+b)) r
